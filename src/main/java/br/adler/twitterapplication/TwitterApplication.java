@@ -19,11 +19,11 @@ public final class TwitterApplication {
 	}
 
 	public TwitterApplication() {
-		String consumerKey = "srGfSLqbxvvuzAPyomlajk7R6";
-		String consumerSecret = "asFVyElCCUBZ2TNSRTmJshJIdhsy0QeF0MelPZXZ03JQAlm5oc";
+		String consumerKey = "Seu consumerKey";
+		String consumerSecret = "Seu consumerSecret";
 
-		String accessToken = "824309197638664198-y9TO7Zx4PpbqCldIALqgWjNQYnIn0wT";
-		String accessTokenSecret = "OToegKMJMpgypYtJBIq6nTcipSeNOtRY7MfoeylCNldOY";
+		String accessToken = "Seu accessToken";
+		String accessTokenSecret = "Seu accessTokenSecret";
 
 		ConfigurationBuilder cb = new ConfigurationBuilder();
 		cb.setDebugEnabled(true).setOAuthConsumerKey(consumerKey).setOAuthConsumerSecret(consumerSecret)
